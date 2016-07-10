@@ -18,11 +18,11 @@
 
 	- you are new to FreeBSD/GhostBSD,
 
-	Reason is most of the documentation doesn't take in consideration Grub2
-	at all, and this may result in additional difficulties for new users,
-	using the traditional FreeBSD loader is higly suggested.
+	  Reason is most of the documentation doesn't take in consideration Grub2
+	  at all, and this may result in additional difficulties for new users,
+	  using the traditional FreeBSD loader is higly suggested.
 
-	Using already installed boot managers, from Linux or other systems:
+	- Using already installed boot managers, from Linux or other systems:
 		
 	-- EXPAND --
 
@@ -41,12 +41,12 @@
 	tweaks needed for a smoother use on live / installed systems.
 
 	If a graphics adapter is not supported from FreeBSD, it will not be
-	supported here too.
+	supported from GhostBSD too.
 
 
 ~~~ Networking
 	
-	GhostBSD provide its own network manager, using agraphical interface,
+	GhostBSD provide its own network manager, using a graphical interface,
 	it does work well if the following conditions are met:
 	- your network adapter is recognized and supported upstream
 	- in same case a licence acknoledgement is required before
@@ -63,15 +63,20 @@
 	Neither are our GhostBSD specific packages.
 
 	We are fully aware of the limitations and we are working to set up our
-	own repo and finally solve this.
+	own repo and finally overcome these limitations.
 
 
 
 ~~~ Reporting problems
 
-	IRC #ghostbsd at freenode.net
 	forums.ghostbsd.org
 	issues.ghostbsd.org
+	
+	Please use forum when you see something wrong but are unable
+	to provide accurate report about the issue.
+	
+	There you will get support to circumscribe the problem, solve
+	the problem if possible, or help to provide info to file a bug.
 	
 
 
@@ -86,9 +91,10 @@
 ~~~ Troubleshoting resources
 
 	GhostBSD wiki
-	GjostBSD forum
+	GhostBSD forum
 	FreeBSD docs and wiki
 	FreeBSD forum
+	IRC #ghostbsd at freenode.net
 
 
 
