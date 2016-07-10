@@ -1,0 +1,37 @@
+GhostBSD 10.3 Release notes
+	
+	GhostBSD provide hybrid ISO images, UEFI enabled, for i386
+        and amd64 architectures.
+	
+	You can either burn the image onto a DVD media or "dd" it
+	to a USB stick device, use of third party tools to transfer
+	the images to USB sticks is higly discouraged and not supported.
+
+	That single ISO can be used either as a "live" media and as
+	an "installer" image.
+
+~~~ Requirements
+	
+	Minimum system requirements
+
+	- x86 or x86-64 CPU
+	- 1 GB RAM
+	- 40 GB disk free storage
+	- Intel, AMD-ATI, and Nvidia graphics adapter.
+	
+	
+~~~ i386 specific:
+	
+	While i386 arch is fully supported there exists some limitation:
+
+	- some program may require some specific cpu feature:
+	  notably flash player plugin require a SSE2 capable cpu
+	
+	- PAE is not supported from GhostBSD, that limit the maximum usable
+	  RAM to approx 3 GB. (that is 4 GB address space minus addresing
+	  reserved for hardware, mostly graphics adapter memory.)
+
+	- ZFS may run on i386 systems, but it is not suggested, we leave
+	  that option available only for testing, evaluation, and/or 
+	  educational purposes.
+
