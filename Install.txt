@@ -1,27 +1,30 @@
 ~~~ Boot loader / boot manager:
 
-GhostBSD provide FreeBSD boot manager, FreeBSD loader, and Grub2.
+	GhostBSD provide FreeBSD boot manager, FreeBSD loader, and Grub2.
 
-Grub2 provide both functionality in one program (boot manager / loader),
-while traditionally FreeBSD provide two separate programs.
+	Grub2 provide both functionality in one program (boot manager / loader),
+	while traditionally FreeBSD provide two separate programs.
 
-FreeBSD "loader" will be aways installed, no matter what you select
-at installation.
+	FreeBSD "loader" will be aways installed, no matter what you select
+	at installation.
 
-Which one to use install depend on a number of factors but mainly 
-we suggest Grub2 if:
+	Which one to use install depend on a number of factors but mainly 
+	we suggest Grub2 if:
 
-- you are going to dual boot AND you have some experience with grub2
+	- you are going to dual boot AND you have some experience with grub2
 
-We suggest "no boot manager" if your install will be exclusively GhostBSD,
-and specifically when:
+	We suggest "no boot manager" if your install will be exclusively GhostBSD,
+	and specifically when:
 
-- you are new to FreeBSD/GhostBSD,
+	- you are new to FreeBSD/GhostBSD,
 
-Reason is most of the documentation doesn't take in consideration Grub2
-at all, and this may result in additional difficulties for new users,
-using the traditional FreeBSD loader is higly suggested.
+	Reason is most of the documentation doesn't take in consideration Grub2
+	at all, and this may result in additional difficulties for new users,
+	using the traditional FreeBSD loader is higly suggested.
 
+	Using already installed boot managers, from Linux or other systems:
+		
+	-- EXPAND --
 
 
 ~~~ Disk Layout and Partitioning
@@ -34,16 +37,33 @@ using the traditional FreeBSD loader is higly suggested.
 
 ~~~ Graphics
 
+	GhostBSD provide the same support as FreeBSD, with some additional
+	tweaks needed for a smoother use on live / installed systems.
 
+	If a graphics adapter is not supported from FreeBSD, it will not be
+	supported here too.
 
 
 ~~~ Networking
+	
+	GhostBSD provide its own network manager, using agraphical interface,
+	it does work well if the following conditions are met:
+	- your network adapter is recognized and supported upstream
+	- in same case a licence acknoledgement is required before
+	  the adapter can work.
 
-
+	-- EXPAND --
 
 
 ~~~ Updating
+	
+	GhostBSD provide update-station which update system+world and pkgs.
 
+	Ports actually aren't automatically updated
+	Neither are our GhostBSD specific packages.
+
+	We are fully aware of the limitations and we are working to set up our
+	own repo and finally solve this.
 
 
 
@@ -66,7 +86,9 @@ using the traditional FreeBSD loader is higly suggested.
 ~~~ Troubleshoting resources
 
 	GhostBSD wiki
+	GjostBSD forum
 	FreeBSD docs and wiki
+	FreeBSD forum
 
 
 
