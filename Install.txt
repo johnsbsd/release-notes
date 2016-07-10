@@ -1,4 +1,4 @@
-Boot loader / boot manager:
+~~~ Boot loader / boot manager:
 
 GhostBSD provide FreeBSD boot manager, FreeBSD loader, and Grub2.
 
@@ -23,9 +23,8 @@ at all, and this may result in additional difficulties for new users,
 using the traditional FreeBSD loader is higly suggested.
 
 
-~~~
 
-Disk Layout and Partitioning
+~~~ Disk Layout and Partitioning
 	
 	Single disk
 	Multiple disks
@@ -33,19 +32,41 @@ Disk Layout and Partitioning
 
 	ZFS
 
-~~~
+~~~ Graphics
 
-Reporting problems
+
+
+
+~~~ Networking
+
+
+
+
+~~~ Updating
+
+
+
+
+~~~ Reporting problems
 
 	IRC #ghostbsd at freenode.net
 	forums.ghostbsd.org
 	issues.ghostbsd.org
 	
-~~~
 
-Virtual enviroments install
+
+~~~ Virtual enviroments install
 
 	VirtualBox
 	VMware
 	qemu
+
+
+
+~~~ Troubleshoting resources
+
+	GhostBSD wiki
+	FreeBSD docs and wiki
+
+
 
