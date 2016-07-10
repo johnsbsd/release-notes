@@ -1,0 +1,51 @@
+Boot loader / boot manager:
+
+GhostBSD provide FreeBSD boot manager, FreeBSD loader, and Grub2.
+
+Grub2 provide both functionality in one program (boot manager / loader),
+while traditionally FreeBSD provide two separate programs.
+
+FreeBSD "loader" will be aways installed, no matter what you select
+at installation.
+
+Which one to use install depend on a number of factors but mainly 
+we suggest Grub2 if:
+
+- you are going to dual boot AND you have some experience with grub2
+
+We suggest "no boot manager" if your install will be exclusively GhostBSD,
+and specifically when:
+
+- you are new to FreeBSD/GhostBSD,
+
+Reason is most of the documentation doesn't take in consideration Grub2
+at all, and this may result in additional difficulties for new users,
+using the traditional FreeBSD loader is higly suggested.
+
+
+~~~
+
+Disk Layout and Partitioning
+	
+	Single disk
+	Multiple disks
+	Dual boot and filesystems interoperability considerations
+
+	ZFS
+
+~~~
+
+Reporting problems
+
+	IRC #ghostbsd at freenode.net
+	forums.ghostbsd.org
+	issues.ghostbsd.org
+	
+~~~
+
+Virtual enviroments install
+
+	VirtualBox
+	VMware
+	qemu
+
